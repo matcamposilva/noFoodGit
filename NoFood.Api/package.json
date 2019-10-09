@@ -1,19 +1,14 @@
 {
   "name": "nofood.api",
   "version": "1.0.0",
-  "description": "API feita em nodeJs para utilização do nosso aplicativo NoFood",
+  "description": "Esta API  foi desenvolvida em NodeJs para utilização do aplicativo noFood",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matcamposilva/noFoodGit.git"
-  },
   "author": "Matheus Campos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matcamposilva/noFoodGit/issues"
-  },
-  "homepage": "https://github.com/matcamposilva/noFoodGit#readme"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
