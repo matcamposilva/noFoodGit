@@ -7,8 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 //CRUD
 
-//Verbs http (Verbos Http) e status code https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
-
+//Verbs http (Verbos Http)
 
 let pessoas = [];
 
