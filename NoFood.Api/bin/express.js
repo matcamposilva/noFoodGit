@@ -15,12 +15,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //Configurando a conexão com banco de dados
-mongoose.connect(variables.Database.connection, {useUnifiedTopology: true, useNewUrlParser: true});
-
+mongoose.connect(variables.Database.connection, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true});
+mongoose.set('useCreateIndex', true);
 //Configurando as rotas
 app.use('/api/categoria', categoriaRouter);
 app.use('/api/produto', produtoRouter);
 
 
 //Exportando nossa Api
-module.exports = app;
+module.exports = app ;
+
