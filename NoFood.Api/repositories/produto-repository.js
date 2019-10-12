@@ -12,7 +12,7 @@ class produtoRepository {
     }
 
     async update(id, data) {
-        return await this._base.update(id, data);
+        return await this._base.update(id,data);
     }
 
     async getAll() {
@@ -24,7 +24,7 @@ class produtoRepository {
     }
 
     async delete(id) {
-        return await this._base.delete(id);
+    return await this._base.delete(id);
     }
 
 }
