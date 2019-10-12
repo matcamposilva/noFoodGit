@@ -6,6 +6,5 @@ const variables = {
         connection: process.env.connection || "mongodb+srv://nofoodadmin:noFood123456@cluster0-v3fui.mongodb.net/test?retryWrites=true&w=majority"
     }
 }
-//
 
 module.exports = variables;
