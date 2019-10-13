@@ -4,7 +4,7 @@ const base = require('../bin/base/repository-base');
 class categoriaRepository {
 
     constructor() {
-        this._base = new base('Categoria')
+        this._base = new base('Categoria');
     }
 
     async create(data) {
@@ -12,7 +12,7 @@ class categoriaRepository {
     }
 
     async update(id, data) {
-        return await this._base.update(id,data);
+        return await this._base.update(id, data);
     }
 
     async getAll() {
@@ -24,7 +24,7 @@ class categoriaRepository {
     }
 
     async delete(id) {
-    return await this._base.delete(id);
+        return await this._base.delete(id);
     }
 
 }
