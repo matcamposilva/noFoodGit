@@ -36,6 +36,7 @@ $app-direction: ltr;
 $colors: (
   primary:    #462300,
   secondary:  #FB8A2E,
+  orangeLight: #FB8A2E,
   background: #F8F8F8,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -47,8 +48,11 @@ $colors: (
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
+$text-input-placeholder-color:(#FFF);
 
+$text-input-highlight-color-valid:rgba(31, 178, 193, 1);
 
+$text-input-highlight-color-invalid:rgba(193, 31, 158, 1);
 
 // App Material Design Variables
 // --------------------------------------------------
