@@ -3,17 +3,13 @@ page-login {
         background: url(/assets/imagens/fundoBroCF.jpg);
         background-size: cover;
     }
-    .brown {
-        background: rgba(251, 138, 46, 0.32);
-        height: 100%;
-        padding: 20px;
-        padding-top: 30%;
-    }
+    //.scroll-content {
+    //background: rgba(251, 138, 46, 0.32);
+    //}
     .logo {
         width: 100%;
-        margin-top: -5px;
         text-align: center;
-
+        margin-top: 20%;
     }
     .logo span {
         color: #ffffffb8;
@@ -29,14 +25,12 @@ page-login {
         margin-left: 10px;
         padding-top: -10px;
     }
-    .item  {
+    .item {
         background: transparent !important;
     }
-    
     .list .item-input:last-child {
         border-bottom: none !important;
     }
-
     .item-md  {
         color: white;  
     }
@@ -44,9 +38,12 @@ page-login {
         color: white;
         margin-top: 55px;  
     }
-
     .button-outline-md {
         color: #ffffffb8;
     }
-    
+
+
+
+
+
 }
