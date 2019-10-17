@@ -20,8 +20,13 @@ export class LoginPage {
   async login(): Promise<void> {
     let result = await this.usuarioSrv.autenticate(this.form.email, this.form.senha);
     if (result.success) {
-      //Enviar para roda certa
+      UsuarioProvider.RegisterLogin(result.data);
+      this.navCtrl.setRoot('CategoriaPage');
     }
     console.log(result);
+  }
+
+  cadastrar(): void {
+    this.navCtrl.setRoot('CadastroPage');
   }
 }

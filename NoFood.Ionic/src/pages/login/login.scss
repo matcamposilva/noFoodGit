@@ -1,49 +1,12 @@
 page-login {
-    ion-content {
-        background: url(/assets/imagens/fundoBroCF.jpg);
-        background-size: cover;
-    }
-    //.scroll-content {
-    //background: rgba(251, 138, 46, 0.32);
-    //}
-    .logo {
-        width: 100%;
-        text-align: center;
-        margin-top: 20%;
-    }
-    .logo span {
-        color: #ffffffb8;
-        font-size: 2.0rem;
-        text-align: center;
-        display: block;
-        font-weight: bold;
-        margin-top: -5px;
-        padding-left: 20px;
-    }
-    .logo img {
-        width: 115px;
-        margin-left: 10px;
-        padding-top: -10px;
-    }
-    .item {
-        background: transparent !important;
-    }
-    .list .item-input:last-child {
-        border-bottom: none !important;
-    }
-    .item-md  {
-        color: white;  
-    }
-    .button-clear-md-orangeLight {
-        color: white;
-        margin-top: 55px;  
-    }
-    .button-outline-md {
-        color: #ffffffb8;
-    }
+ion-content{
+    background: url(/assets/imagens/fundoBroCF.jpg);
+    background-size: cover;
+}
 
-
-
-
+.item {
+    background: transparent !important;
+    border-bottom: 1px solid #F26522 !important;
+}
 
 }
